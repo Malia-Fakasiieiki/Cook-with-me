@@ -166,7 +166,7 @@ footer{
 }*/
 
 /*for the user to interact with the page for what they had selected*/
-/*.selected_cookie:hover{
+.selected_cookie:hover{
     background-color:rgb(191, 214, 140);
     /*padding-left: 20px;*/
    padding-right: 20px;
@@ -176,7 +176,7 @@ footer{
     margin-left: 20px;
     margin-top: auto;
     margin-bottom: auto;
-}*/
+}
 
 /*the heading for the baking*/
 h1{
@@ -218,7 +218,7 @@ h1{
     height: 350px;
     display: table-cell;
     text-align: left;
-    align-items:flex-end;
+   /* align-items:flex-end;*/
    /*position: fixed;*/
 }
 
@@ -412,6 +412,287 @@ h1{
     font-family: mosterrat;
     margin-top: 30px;
     font-size: 20px;
+    /*float: bottom-left;*/
+    /*display: flex;*/
+    /*float: middle;*/
+}
+
+
+/**{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    box-sizing: border-box;
+    align-items: left;
+}*/
+
+.background_colours2{
+    background-color: #D6E69D;
+    width: auto;
+    height: 305px;
+    display: table-cell;
+    /*table-layout: row;*/
+    text-align: left;
+    /*float: left;*/
+   /*position: fixed;*/
+}
+
+.cooking{
+    display: flex;
+    /*justify-content:first baseline;*/
+    width: auto;
+    height: 250px;
+    gap: 20px;
+    box-sizing: auto;
+    table-layout: auto;
+    /*position: absolute;*/
+   /*content: "";
+    clear: both;
+    display: table;*/
+    /*background-color: beige;*/
+   /* margin-top: 100px;*/
+    /*margin-left: 20px*/
+}
+
+.pic11{
+    /*border: 50px;*/
+    /*background: rgb(225, 49, 49);*/
+    width: 115px;
+    height: 105px;
+    margin-left: 30px;
+    text-align: justify;
+    /*margin-right: 15px;
+    margin-bottom: 0px;*/
+}
+
+.stirfry{
+    text-align: center;
+    font-family: mosterrat;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 165px;
+    /*margin-left: 60px;*/
+    /*float: bottom-left;*/
+    /*display: flex;*/
+    /*float: middle;*/
+}
+
+.pic12{
+    /*border: 50px;*/
+    /*background: rgb(225, 49, 49);*/
+    width: 175px;
+    height: 165px;
+    margin-left: 50px;
+    /*margin-right: 15px;*/
+    text-align: justify;
+}
+
+/*.fried_rice{
+    text-align: center;
+    font-family: mosterrat;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 100px;
+    padding-top: 10px;
+    height
+    /*float: bottom-left;*/
+    /*display: flex;*/
+    /*float: middle;
+}*/
+
+.fried_rice{
+    text-align: center;
+    font-family: mosterrat;
+    margin-top: -5px;
+    font-size: 20px;
+    /*height: 10px;*/
+    width: 185px;
+    /*background-color: aqua;*/
+    vertical-align: text-top;
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*margin-bottom: 1000px;*/
+    /*float: bottom-left;*/
+    /*display: flex;*/
+    /*float: middle;*/
+}
+
+.pic13{
+    /*border: 50px;*/
+    /*background: rgb(225, 49, 49);*/
+    width: 175px;
+    height: 165px;
+    margin-left: 5px;
+    /*margin-right: 15px;*/
+    text-align: justify;
+}
+
+.cheese{
+    text-align: center;
+    font-family: mosterrat;
+    /*margin-top: 20px;*/
+    font-size: 20px;
+    width: 173px;
+    vertical-align: text-top;
+    margin-top: -9px;
+    /*margin-left: 60px;*/
+    /*float: bottom-left;*/
+    /*display: flex;*/
+    /*float: middle;*/
+}
+
+.pic14{
+    /*border: 50px;*/
+    /*background: rgb(225, 49, 49);*/
+    width: 175px;
+    height: 165px;
+    margin-left: -3px;
+    /*margin-right: 15px;*/
+    text-align: justify;
+}
+
+.patties{
+    text-align: center;
+    font-family: mosterrat;
+    /*margin-top: 20px;*/
+    font-size: 20px;
+    width: 170px;
+    vertical-align: text-top;
+    margin-top: -8px;
+    /*margin-left: 60px;*/
+    /*float: bottom-left;*/
+    /*display: flex;*/
+    /*float: middle;*/
+}
+
+.pic15{
+    /*border: 50px;*/
+    /*background: rgb(225, 49, 49);*/
+    width: 175px;
+    height: 165px;
+    margin-left: -10px;
+    /*margin-right: 15px;*/
+    text-align: justify;
+}
+
+.wellington{
+    text-align: center;
+    font-family: mosterrat;
+    font-size: 20px;
+    width: 173px;
+    margin-top: -7px;
+    /*margin-left: 60px;*/
+    /*float: bottom-left;*/
+    /*display: flex;*/
+    /*float: middle;*/
+}
+
+.pic16{
+    /*border: 50px;*/
+    /*background: rgb(225, 49, 49);*/
+    width: 175px;
+    height: 165px;
+    margin-left: 1px;
+    /*margin-right: 15px;*/
+    text-align: justify;
+    /*grid-template-columns: 56px;*/
+}
+
+.curry{
+    text-align: center;
+    font-family: mosterrat;
+    margin-top: -10px;
+    font-size: 20px;
+    width: 162px;
+    /*margin-left: 60px;*/
+    /*float: bottom-left;*/
+    /*display: flex;*/
+    /*float: middle;*/
+}
+
+.pic17{
+    /*border: 50px;*/
+    /*background: rgb(225, 49, 49);*/
+    width: 175px;
+    height: 165px;
+    margin-left: -14px;
+    /*margin-right: 15px;*/
+    text-align: justify;
+}
+
+.pancakes{
+    text-align: center;
+    font-family: mosterrat;
+    margin-top: -10px;
+    font-size: 20px;
+    width: 163px;
+    /*margin-left: 60px;*/
+    /*float: bottom-left;*/
+    /*display: flex;*/
+    /*float: middle;*/
+}
+
+.pic18{
+    /*border: 50px;*/
+    /*background: rgb(225, 49, 49);*/
+    width: 175px;
+    height: 165px;
+    margin-left: -5px;
+    /*margin-right: 15px;*/
+    text-align: justify;
+}
+
+.spaghetti{
+    margin-top: 15px;
+    text-align: center;
+    font-family: mosterrat;
+    font-size: 20px;
+    width: 140px;
+    /*margin-left: 60px;*/
+    /*float: bottom-left;*/
+    /*display: flex;*/
+    /*float: middle;*/
+}
+
+.pic19{
+    /*border: 50px;*/
+    /*background: rgb(225, 49, 49);*/
+    width: 175px;
+    height: 165px;
+    margin-left: -25px;
+    /*margin-right: 15px;*/
+    text-align: justify;
+}
+
+.tacos{
+    margin-top: 16px;
+    text-align: center;
+    font-family: mosterrat;
+    font-size: 20px;
+    width: 140px;
+    /*margin-left: 60px;*/
+    /*float: bottom-left;*/
+    /*display: flex;*/
+    /*float: middle;*/
+}
+
+.pic20{
+    /*border: 50px;*/
+    /*background: rgb(225, 49, 49);*/
+    width: 175px;
+    height: 165px;
+    margin-left: 4.55px;
+    /*margin-right: 15px;*/
+    text-align: justify;
+}
+
+.fajita{
+    margin-top: 18px;
+    text-align: center;
+    font-family: mosterrat;
+    font-size: 20px;
+    width: 155px;
+    margin-right: 160px;
     /*float: bottom-left;*/
     /*display: flex;*/
     /*float: middle;*/
