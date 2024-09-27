@@ -1,6 +1,7 @@
 body{
     background-color: white;
     font-family: Monserrat;
+    margin: 0;
 }
 
 div.wholepage{
@@ -8,10 +9,12 @@ background-color: white;
 width: auto;
 }
 
-div.nav{
-    background-color: black;
-    font-family: Cinzel;
-    margin: 6px 0;
-    width: 35px;
-    height: 5px;
+:root{
+    --bar-width: 40px;
+    --bar-height: 8px;
+    --hamburger-gap: 6px;
+}
+
+.burger-menu{
+    content
 }
