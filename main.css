@@ -166,7 +166,7 @@ footer{
 }*/
 
 /*for the user to interact with the page for what they had selected*/
-.selected_cookie:hover{
+/*.selected_cookie:hover{
     background-color:rgb(191, 214, 140);
     /*padding-left: 20px;*/
    padding-right: 20px;
@@ -176,7 +176,7 @@ footer{
     margin-left: 20px;
     margin-top: auto;
     margin-bottom: auto;
-}
+}*/
 
 /*the heading for the baking*/
 h1{
