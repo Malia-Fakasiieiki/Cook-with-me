@@ -218,7 +218,7 @@ h1{
     height: 350px;
     display: table-cell;
     text-align: left;
-   /* align-items:flex-end;*/
+    align-items:flex-end;
    /*position: fixed;*/
 }
 
@@ -696,4 +696,17 @@ h1{
     /*float: bottom-left;*/
     /*display: flex;*/
     /*float: middle;*/
+}
+
+/*for Contact page*/
+.container2{
+    vertical-align: middle;
+    height: 690px;
+    width: auto;
+    background-color: lightgoldenrodyellow;
+}
+
+.down{
+    margin-top: 50px;
+    padding-top: 100px;
 }
