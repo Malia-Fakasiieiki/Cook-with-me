@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+    font-family: Monserrat;
+}
+
+div.wholepage{
+background-color: white;
+width: auto;
+}
+
+div.nav{
+    background-color: black;
+    font-family: Cinzel;
+    margin: 6px 0;
+    width: 35px;
+    height: 5px;
+}
