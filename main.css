@@ -10,11 +10,6 @@ background-color: white;
 width: auto;
 }
 
-img1{
-    width: 100%;
-    float: center;
-}
-
 p{
     padding-top: 20px;
     font-family: montserrat;
@@ -33,25 +28,25 @@ nav{
     width: 100%;
     background-color:#7e9a65e2;
     overflow: auto;
+    height: auto;
 }
 
 ul{
     padding: 0px;
-    margin: 0px 0px 0px 15px;
+    margin: 10px 10px 10px 283px;
+    margin-left: 165px;
     list-style: none;
 }
 
 li{
     float: left;
-    margin-top: 20px;
-    margin-left: 7%;
-    margin-bottom: 20px;
+   
 }
 
 .logo img{
     position: absolute;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 55px;
     size-adjust: auto;
     float: left;
 }
@@ -59,7 +54,7 @@ li{
 nav a{
     width: 100px;
     display: block;
-    padding: 10px 15px;
+    padding: 20px 15px;
     text-decoration:none;
     font-family: montserrat;
     color: black;
@@ -67,18 +62,108 @@ nav a{
 }
 
 nav a:hover{
-    background: #79bd6ce2;
+    background: rgb(174, 216, 137);
     transition: 0.5s;
+    text-decoration: underline;
+}
+nav a.active{
+    background-color: whitesmoke;
+    color: black;
 }
 
-.footerbox{
+footer{
+    display: flex;
     background-color: #849f6ce2;
     height: 200px;
     width: auto;
     margin: auto;
     padding-top: 20px;
+    margin-top: 80px;
+    column-gap: 20px;
+    /*margin-bottom: 30px;*/
 }
 
 .img1{
-width: 10px;
+width: 100%;
+}
+
+.instagram{
+    text-align: center;
+    margin:auto;
+    margin-bottom: 700px;
+    /*display:flex;*/
+    /*column-gap: 20px;*/
+    /*padding-right: 20px;*/
+}
+
+.facebook{
+    text-align: center;
+    margin:auto;
+    margin-bottom: 700px;
+}
+
+.printrest{
+    text-align: center;
+    margin:auto;
+    margin-bottom: 700px;
+}
+
+.twitter{
+    text-align: center;
+    margin:auto;
+    margin-bottom: 700px;
+}
+
+/*.words{
+    text-align: middle;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}*/
+
+.pic1{
+    /*border: 50px;*/
+    /*background: rgb(255, 255, 255);*/
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+}
+
+h1{
+    margin-left: 15px;
+    text-decoration: underline;
+}
+
+.cookies{
+    text-align: center;
+    font-family: mosterrat;
+    margin-top: 30px;
+    font-size: 20px;
+    /*float: bottom-left;*/
+    /*display: flex;*/
+}
+
+.pic2{
+    /*border: 50px;*/
+    /*background: rgb(225, 49, 49);*/
+    width: 165px;
+    height: 165px;
+    margin-left: 30px;
+}
+
+
+.potatoes{
+    text-align: center;
+    font-family: mosterrat;
+    margin-top: 30px;
+    font-size: 20px;
+    /*float: bottom-left;*/
+    /*display: flex;*/
+    /*float: middle;*/
+}
+
+.baking{
+    display:flex;
+    /*background-color: beige;*/
+   /* margin-top: 100px;
+    margin-left: 20px*/
 }
